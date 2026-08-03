@@ -512,6 +512,11 @@ a {
     margin: 0;
   }
 
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
   body {
     background: #fff;
   }
@@ -522,33 +527,37 @@ a {
 
   .resume {
     width: 210mm;
-    min-height: 297mm;
+    height: 297mm;
     margin: 0;
     box-shadow: none;
-    grid-template-columns: 62mm 1fr;
+    grid-template-columns: 58mm 1fr;
+    overflow: hidden;
   }
 
   .sidebar {
-    padding: 12mm 7mm 9mm;
+    padding: 7mm 5mm 5mm;
   }
 
   .content {
-    padding: 11mm 10mm 9mm;
+    padding: 7mm 8mm 5mm;
   }
 
   .photo-wrap {
-    width: 42mm;
-    height: 42mm;
-    margin-bottom: 7mm;
+    width: 31mm;
+    height: 31mm;
+    margin-bottom: 3mm;
+    border-width: 1mm;
   }
 
   .side-section {
-    margin-top: 6mm;
+    margin-top: 3.2mm;
   }
 
   .side-section h2,
   .main-section h2 {
-    font-size: 10pt;
+    margin-bottom: 2mm;
+    padding-bottom: 1.2mm;
+    font-size: 8pt;
   }
 
   .contact-list li,
@@ -556,29 +565,79 @@ a {
   .compact p,
   .skill,
   .tech-grid span {
-    font-size: 7.2pt;
+    font-size: 5.8pt;
+  }
+
+  .contact-list li {
+    grid-template-columns: 5mm 1fr;
+    gap: 1.5mm;
+    margin: 1.4mm 0;
+  }
+
+  .icon {
+    width: 4.5mm;
+    height: 4.5mm;
+    font-size: 5pt;
+  }
+
+  .whatsapp-icon svg {
+    width: 2.8mm;
+    height: 2.8mm;
+  }
+
+  .skills {
+    gap: 1.3mm;
+  }
+
+  .skill {
+    grid-template-columns: 1fr 18mm;
+    gap: 1.5mm;
+  }
+
+  .skill i {
+    height: 1mm;
+  }
+
+  .tech-grid {
+    gap: 1mm;
+  }
+
+  .tech-grid span {
+    border-radius: 1.5mm;
+    padding: 1mm .8mm;
+  }
+
+  .compact p,
+  .plain-list li {
+    margin: 1.1mm 0;
   }
 
   .hero .first-name {
-    font-size: 28pt;
+    font-size: 23pt;
   }
 
   .hero h1 {
-    font-size: 22pt;
+    margin: 1mm 0 .5mm;
+    font-size: 18pt;
   }
 
   .hero .role {
-    font-size: 12pt;
+    margin-top: 1mm;
+    font-size: 9pt;
+  }
+
+  .hero {
+    padding-bottom: 3mm;
   }
 
   .summary,
   .timeline p,
   .project-body > p {
-    font-size: 8pt;
+    font-size: 6.4pt;
   }
 
   .main-section {
-    margin-top: 5.5mm;
+    margin-top: 3.2mm;
     break-inside: avoid;
   }
 
@@ -587,13 +646,14 @@ a {
   }
 
   .project-card {
-    padding: 4mm;
-    grid-template-columns: 24mm 1fr;
-    gap: 4mm;
+    padding: 2.5mm;
+    grid-template-columns: 17mm 1fr;
+    gap: 2.5mm;
+    border-radius: 3mm;
   }
 
   .portfolio-grid {
-    gap: 4mm;
+    gap: 2.5mm;
   }
 
   .project-card:hover {
@@ -602,23 +662,63 @@ a {
   }
 
   .project-icon {
-    width: 22mm;
-    height: 22mm;
-    font-size: 24pt;
+    width: 16mm;
+    height: 16mm;
+    border-radius: 3.5mm;
+    font-size: 17pt;
+  }
+
+  .project-icon-portfolio {
+    font-size: 12pt;
   }
 
   .project-title-row h3 {
-    font-size: 13pt;
+    font-size: 9.5pt;
+  }
+
+  .project-title-row span {
+    padding: .8mm 1.5mm;
+    font-size: 5.5pt;
+  }
+
+  .project-body > p {
+    margin: 1.5mm 0;
+  }
+
+  .feature-columns {
+    gap: 2.5mm;
+    padding-top: 1.2mm;
   }
 
   .feature-columns li,
   .cert-grid li {
-    font-size: 7.2pt;
-    margin: 1.8mm 0;
+    font-size: 5.8pt;
+    margin: .8mm 0;
+  }
+
+  .feature-columns li::before,
+  .cert-grid li::before {
+    margin-right: 1mm;
+  }
+
+  .education-row h3,
+  .time-head h3 {
+    font-size: 8pt;
+  }
+
+  .education-row,
+  .time-head,
+  .cert-grid {
+    font-size: 6.4pt;
+  }
+
+  .cert-grid {
+    gap: 4mm;
   }
 
   .strengths span {
-    font-size: 7pt;
-    padding: 2.5mm 1mm;
+    border-radius: 1.5mm;
+    font-size: 5.5pt;
+    padding: 1.5mm .8mm;
   }
 }
