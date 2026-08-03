@@ -34,7 +34,25 @@ a {
   width: min(1120px, calc(100% - 32px));
   margin: 20px auto 10px;
   display: flex;
+  align-items: center;
+  gap: 12px;
   justify-content: flex-end;
+}
+
+.portfolio-back {
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  color: var(--blue);
+  font-weight: 700;
+  padding: 11px 16px;
+  text-decoration: none;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+
+.portfolio-back:hover {
+  background: var(--blue);
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .toolbar button {
@@ -487,6 +505,14 @@ a {
 
   .toolbar {
     padding: 10px;
+    gap: 8px;
+  }
+
+  .portfolio-back,
+  .toolbar button {
+    flex: 1;
+    padding: 10px 8px;
+    text-align: center;
   }
 
   .hero .first-name {
