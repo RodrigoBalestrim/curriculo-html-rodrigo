@@ -397,15 +397,29 @@ a {
   margin-right: 8px;
 }
 
-.project-link a {
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.project-links a {
   color: var(--blue);
   font-weight: 700;
   text-decoration: none;
   overflow-wrap: anywhere;
+  border: 1px solid #a9c6f3;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background: #fff;
 }
 
-.project-link a:hover {
-  text-decoration: underline;
+.project-links a:hover {
+  color: #fff;
+  background: var(--blue);
+  border-color: var(--blue);
 }
 
 .cert-grid {
@@ -683,6 +697,16 @@ a {
 
   .project-body > p {
     margin: 1.5mm 0;
+  }
+
+  .project-links {
+    gap: 1mm;
+    margin-top: 1.5mm;
+  }
+
+  .project-links a {
+    padding: .7mm 1.5mm;
+    font-size: 5.5pt;
   }
 
   .feature-columns {

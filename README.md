@@ -11,9 +11,10 @@ A responsive, bilingual resume built with HTML, CSS, and JavaScript. It presents
 - Print-ready A4 styling for professional PDF export
 - No frameworks or build tools required
 
-## Live Portfolio
+## Live Demo
 
-Visit my interactive portfolio at [portfolio-3d-eight-nu.vercel.app](https://portfolio-3d-eight-nu.vercel.app/).
+- [View the HTML Resume](https://rodrigobalestrim.github.io/curriculo-html-rodrigo/)
+- [View the 3D Portfolio](https://portfolio-3d-eight-nu.vercel.app/)
 
 ## Run Locally
 
@@ -46,8 +47,8 @@ Open one of these files in your browser:
 
 ## Featured Projects
 
-- [Prazo Certo](https://github.com/RodrigoBalestrim/prazo-certo-app) — Product expiration management app built with React Native, Expo, TypeScript, and Supabase.
-- [3D Portfolio](https://portfolio-3d-eight-nu.vercel.app/) — Interactive portfolio built with Next.js, React, Tailwind CSS, and Framer Motion.
+- [Prazo Certo — Source Code](https://github.com/RodrigoBalestrim/prazo-certo-app) — Product expiration management app built with React Native, Expo, TypeScript, and Supabase.
+- [3D Portfolio — Live Demo](https://portfolio-3d-eight-nu.vercel.app/) · [Source Code](https://github.com/RodrigoBalestrim/portfolio-rodrigo-balestrim) — Interactive portfolio built with Next.js, React, Tailwind CSS, and Framer Motion.
 
 ## Contact
 
