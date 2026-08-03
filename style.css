@@ -520,10 +520,7 @@ a {
   }
 
   .content {
-    width: 104.2%;
     padding: 7mm 8mm 5mm;
-    transform: scale(.96);
-    transform-origin: top left;
   }
 
   .side-section {
@@ -602,6 +599,10 @@ a {
   .main-section {
     margin-top: 2.2mm;
     break-inside: avoid;
+  }
+
+  .content > .main-section:last-child {
+    transform: translateY(-2mm);
   }
 
   .timeline article {
