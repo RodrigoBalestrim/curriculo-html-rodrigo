@@ -524,6 +524,10 @@ a {
     transform: scale(1.25);
   }
 
+  .pt-br .strengths {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
   .sidebar {
     padding: 7mm 5mm 5mm;
   }
