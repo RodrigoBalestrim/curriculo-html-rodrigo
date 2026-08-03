@@ -507,12 +507,14 @@ a {
   }
 
   .resume {
-    width: 210mm;
-    height: 297mm;
+    width: 152.2mm;
+    height: 215.2mm;
     margin: 0;
     box-shadow: none;
-    grid-template-columns: 58mm 1fr;
+    grid-template-columns: 42mm 1fr;
     overflow: hidden;
+    transform: scale(1.38);
+    transform-origin: top left;
   }
 
   .sidebar {
@@ -521,7 +523,7 @@ a {
 
   .content {
     display: flex;
-    height: 297mm;
+    height: 215.2mm;
     flex-direction: column;
     justify-content: space-between;
     padding: 7mm 8mm 5mm;
