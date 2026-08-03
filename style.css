@@ -84,6 +84,18 @@ a {
   padding: 28px 28px 34px;
 }
 
+@media screen and (min-width: 901px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sidebar .side-section {
+    margin-top: 0;
+  }
+}
+
 .side-section {
   margin-top: 24px;
 }
