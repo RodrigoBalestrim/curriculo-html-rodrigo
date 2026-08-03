@@ -84,13 +84,6 @@ a {
   padding: 28px 28px 34px;
 }
 
-@media screen and (min-width: 901px) {
-  .sidebar {
-    align-self: start;
-    border-radius: 0 0 24px 0;
-  }
-}
-
 .side-section {
   margin-top: 24px;
 }
@@ -523,8 +516,6 @@ a {
   }
 
   .sidebar {
-    align-self: start;
-    border-radius: 0 0 4mm 0;
     padding: 7mm 5mm 5mm;
   }
 
