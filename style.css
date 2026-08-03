@@ -520,6 +520,10 @@ a {
   }
 
   .content {
+    display: flex;
+    height: 297mm;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 7mm 8mm 5mm;
   }
 
@@ -597,7 +601,7 @@ a {
   }
 
   .main-section {
-    margin-top: 3.2mm;
+    margin-top: 0;
     break-inside: avoid;
   }
 
