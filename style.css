@@ -507,12 +507,14 @@ a {
   }
 
   .resume {
-    width: 210mm;
-    height: 297mm;
+    width: 152.2mm;
+    height: 215.2mm;
     margin: 0;
     box-shadow: none;
-    grid-template-columns: 58mm 1fr;
+    grid-template-columns: 42mm 1fr;
     overflow: hidden;
+    transform: scale(1.38);
+    transform-origin: top left;
   }
 
   .sidebar {
@@ -520,7 +522,7 @@ a {
   }
 
   .content {
-    padding: 7mm 8mm 5mm;
+    padding: 6mm 7mm 3mm;
   }
 
   .side-section {
@@ -597,7 +599,7 @@ a {
   }
 
   .main-section {
-    margin-top: 1.5mm;
+    margin-top: 1mm;
     break-inside: avoid;
   }
 
