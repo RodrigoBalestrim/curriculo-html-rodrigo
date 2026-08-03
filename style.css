@@ -518,10 +518,10 @@ a {
   }
 
   .pt-br .resume {
-    width: 156.7mm;
-    height: 221.6mm;
-    grid-template-columns: 43.3mm 1fr;
-    transform: scale(1.34);
+    width: 168mm;
+    height: 237.6mm;
+    grid-template-columns: 46.4mm 1fr;
+    transform: scale(1.25);
   }
 
   .sidebar {
