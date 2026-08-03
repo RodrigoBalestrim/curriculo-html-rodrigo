@@ -597,12 +597,12 @@ a {
   }
 
   .main-section {
-    margin-top: 2.2mm;
+    margin-top: 1.5mm;
     break-inside: avoid;
   }
 
   .content > .main-section:last-child {
-    transform: translateY(-2mm);
+    margin-top: 1mm;
   }
 
   .timeline article {
