@@ -256,47 +256,27 @@ a {
   box-shadow: 0 0 0 3px #fff;
 }
 
-.time-head,
-.education-row {
+.time-head {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   align-items: flex-start;
 }
 
-.education-row {
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: #f8fbff;
-  padding: 16px 18px;
-}
-
-.time-head h3,
-.education-row h3 {
+.time-head h3 {
   margin: 0;
   font-size: 17px;
 }
 
-.time-head strong,
-.education-row strong {
+.time-head strong {
   display: inline-block;
   margin-top: 3px;
   color: var(--blue);
 }
 
-.time-head > span,
-.education-row > span {
+.time-head > span {
   white-space: nowrap;
   color: #2f3c4f;
-}
-
-.education-row > span {
-  border-radius: 999px;
-  background: #e8f1ff;
-  color: var(--blue);
-  font-size: 12px;
-  font-weight: 700;
-  padding: 6px 10px;
 }
 
 .timeline p {
@@ -420,14 +400,6 @@ a {
   gap: 28px;
 }
 
-.cert-subtitle {
-  margin: 18px 0 8px;
-  color: var(--blue);
-  font-size: 12px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-
 .cert-grid li {
   margin: 8px 0;
   font-size: 13px;
@@ -501,7 +473,6 @@ a {
   }
 
   .time-head,
-  .education-row,
   .project-title-row {
     flex-direction: column;
     align-items: flex-start;
@@ -709,30 +680,13 @@ a {
     margin-right: 1mm;
   }
 
-  .education-row h3,
   .time-head h3 {
     font-size: 8pt;
   }
 
-  .education-row,
   .time-head,
   .cert-grid {
     font-size: 6.4pt;
-  }
-
-  .education-row {
-    border-radius: 2mm;
-    padding: 2mm 2.5mm;
-  }
-
-  .education-row > span {
-    font-size: 5.8pt;
-    padding: 1mm 1.5mm;
-  }
-
-  .cert-subtitle {
-    margin: 2.5mm 0 1mm;
-    font-size: 6pt;
   }
 
   .cert-grid {
