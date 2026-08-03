@@ -264,6 +264,13 @@ a {
   align-items: flex-start;
 }
 
+.education-row {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f8fbff;
+  padding: 16px 18px;
+}
+
 .time-head h3,
 .education-row h3 {
   margin: 0;
@@ -281,6 +288,15 @@ a {
 .education-row > span {
   white-space: nowrap;
   color: #2f3c4f;
+}
+
+.education-row > span {
+  border-radius: 999px;
+  background: #e8f1ff;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 10px;
 }
 
 .timeline p {
@@ -402,6 +418,14 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 28px;
+}
+
+.cert-subtitle {
+  margin: 18px 0 8px;
+  color: var(--blue);
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
 }
 
 .cert-grid li {
@@ -694,6 +718,21 @@ a {
   .time-head,
   .cert-grid {
     font-size: 6.4pt;
+  }
+
+  .education-row {
+    border-radius: 2mm;
+    padding: 2mm 2.5mm;
+  }
+
+  .education-row > span {
+    font-size: 5.8pt;
+    padding: 1mm 1.5mm;
+  }
+
+  .cert-subtitle {
+    margin: 2.5mm 0 1mm;
+    font-size: 6pt;
   }
 
   .cert-grid {
