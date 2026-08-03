@@ -86,13 +86,8 @@ a {
 
 @media screen and (min-width: 901px) {
   .sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .sidebar .side-section {
-    margin-top: 0;
+    align-self: start;
+    border-radius: 0 0 24px 0;
   }
 }
 
@@ -533,6 +528,8 @@ a {
   }
 
   .sidebar {
+    align-self: start;
+    border-radius: 0 0 4mm 0;
     padding: 7mm 5mm 5mm;
   }
 
