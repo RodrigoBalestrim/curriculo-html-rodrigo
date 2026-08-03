@@ -507,14 +507,12 @@ a {
   }
 
   .resume {
-    width: 152.2mm;
-    height: 215.2mm;
+    width: 210mm;
+    height: 297mm;
     margin: 0;
     box-shadow: none;
-    grid-template-columns: 42mm 1fr;
+    grid-template-columns: 58mm 1fr;
     overflow: hidden;
-    transform: scale(1.38);
-    transform-origin: top left;
   }
 
   .sidebar {
@@ -522,7 +520,7 @@ a {
   }
 
   .content {
-    padding: 6mm 7mm 3mm;
+    padding: 7mm 8mm 5mm;
   }
 
   .side-section {
@@ -599,12 +597,8 @@ a {
   }
 
   .main-section {
-    margin-top: 1mm;
+    margin-top: 2.2mm;
     break-inside: avoid;
-  }
-
-  .content > .main-section:last-child {
-    margin-top: 1mm;
   }
 
   .timeline article {
