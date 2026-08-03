@@ -47,7 +47,7 @@ Open one of these files in your browser:
 
 ## Featured Projects
 
-- [Prazo Certo — Source Code](https://github.com/RodrigoBalestrim/prazo-certo-app) — Product expiration management app built with React Native, Expo, TypeScript, and Supabase.
+- [Prazo Certo — Live Demo](https://prazo-certo.expo.app) · [Source Code](https://github.com/RodrigoBalestrim/prazo-certo-app) — Product expiration management app built with React Native, Expo, TypeScript, and Supabase.
 - [3D Portfolio — Live Demo](https://portfolio-3d-eight-nu.vercel.app/) · [Source Code](https://github.com/RodrigoBalestrim/portfolio-rodrigo-balestrim) — Interactive portfolio built with Next.js, React, Tailwind CSS, and Framer Motion.
 
 ## Contact
