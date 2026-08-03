@@ -517,6 +517,13 @@ a {
     transform-origin: top left;
   }
 
+  .pt-br .resume {
+    width: 156.7mm;
+    height: 221.6mm;
+    grid-template-columns: 43.3mm 1fr;
+    transform: scale(1.34);
+  }
+
   .sidebar {
     padding: 7mm 5mm 5mm;
   }
